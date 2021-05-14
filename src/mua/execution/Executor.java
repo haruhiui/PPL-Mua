@@ -12,7 +12,8 @@ import java.util.*;
 public class Executor {
 
     /**
-     * @Description Return the result of the first command. If it is not a function nor an operation, then just return that string.
+     * @Description Return the result of the first command.
+     * If it is not a function nor an operation, then just return that string.
      */
     public static String executeFirst(MuaIterator runIter) {
         String cmd = runIter.next();

@@ -12,6 +12,10 @@ import java.util.regex.Pattern;
 
 public class Mua {
 
+    public static void main(String[] args) {
+        Mua.run();
+    }
+
     private static final MuaContext globalContext = new MuaContext();
     private static MuaContext currentContext = globalContext;
 
